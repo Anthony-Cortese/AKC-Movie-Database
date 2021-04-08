@@ -1,0 +1,91 @@
+@import url(//db.onlinewebfonts.com/c/ff979f94eb4780f0376c4696d67f66f7?family=Plaza);
+ /* <a href="https://ibb.co/j3xy5pY"><img src="https://i.ibb.co/JrbvdhT/6-2-alien-png-picture.png" alt="6-2-alien-png-picture" border="0"></a> */
+ @font-face {
+  font-family: "Plaza"; 
+  src: url("//db.onlinewebfonts.com/c/ff979f94eb4780f0376c4696d67f66f7?family=Plaza");
+  font-style:normal;
+  font-weight: 50;
+}
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+ body {
+    font-family: 'Plaza'; 
+    background-color:#222222;
+    max-height: 150rem;
+    max-width: 100%;
+    color: whitesmoke;
+    /* overflow-x: hidden; */
+
+    
+  
+}
+ .App {
+  /* border: 1px solid red; */
+  height: 150rem;
+}
+
+.App-header {
+  background-color: #303030;
+}
+ .alien { 
+  position: absolute;
+  right: 0%;
+  margin-right:0;
+  margin-left: auto;
+  display:block;
+
+}
+.movie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.movie-titles {
+  
+}
+.title-card{
+  position: absolute;
+  max-width: 80rem;
+  background-color: #303030;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.movie-box {
+  max-width: 80rem;
+  border: 1px solid black;
+  margin: 15px;
+  margin-top: 15px;
+  background-color: #303030
+}
+
+.batman {
+  max-width: 250px;
+  margin: 1rem;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90vw;
+}
+/* .movie-card {
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+  background-color: #303030;
+  opacity: .8;
+  border: 1px solid black;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin: none;
+} */
+
+

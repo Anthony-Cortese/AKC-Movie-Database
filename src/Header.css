@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.header-div {
+    border: 1px solid black;
+    max-height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    color: whitesmoke;
+    background-color: #303030;
+}
+
+.spinner { 
+    width: 3rem;
+    margin: 0;
+    color: whitesmoke;
+        
+}

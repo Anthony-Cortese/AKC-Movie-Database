@@ -7,24 +7,23 @@ const Movie = ({ movie }) => {
   const poster =
     movie.Poster === "N/A" ? DEFAULT_PLACEHOLDER_IMAGE : movie.Poster;
   return (
-      
       <div className="movie">
-       <div className='title-card'>
-       
-       {/* <h2 className='movie-titles'>{movie.Title}</h2> */}
-
-       </div>
+        <div className='title-card'>
+        </div>
       <div className='movie-box'>
-
-    
         <img className="batman"
           alt={`The movie titled: ${movie.Title}`}
           src={poster}
           />
-          </div>
+        </div>
     </div>
-  );
-};
+    );
+  };
+  
+  
+  export default Movie;
+    
+       
 
 
-export default Movie;
+      

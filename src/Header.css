@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-
-.header-div {
+@import url(//db.onlinewebfonts.com/c/ff979f94eb4780f0376c4696d67f66f7?family=Plaza);
+ @font-face {
+  font-family: "Plaza"; 
+  src: url("//db.onlinewebfonts.com/c/ff979f94eb4780f0376c4696d67f66f7?family=Plaza");
+  font-style:normal;
+  font-weight: 50;
+}
+  .header-div {
     border: 1px solid black;
     max-height: 3.5rem;
     display: flex;
@@ -10,11 +14,26 @@
     max-width: 100%;
     color: whitesmoke;
     background-color: #303030;
+    font-family: "Plaza"; 
 }
 
 .spinner { 
     width: 3rem;
     margin: 0;
     color: whitesmoke;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
         
 }
+
+@keyframes spin {
+    from {
+        transform:rotateY(0deg);
+    }
+    to {
+        transform:rotateY(360deg);
+    }
+  }
+        

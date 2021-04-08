@@ -1,18 +1,20 @@
-@import url(//db.onlinewebfonts.com/c/ff979f94eb4780f0376c4696d67f66f7?family=Plaza);
- /* <a href="https://ibb.co/j3xy5pY"><img src="https://i.ibb.co/JrbvdhT/6-2-alien-png-picture.png" alt="6-2-alien-png-picture" border="0"></a> */
- @font-face {
-  font-family: "Plaza"; 
-  src: url("//db.onlinewebfonts.com/c/ff979f94eb4780f0376c4696d67f66f7?family=Plaza");
-  font-style:normal;
-  font-weight: 50;
-}
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+
+@font-face {
+    font-family: "Amazon Ember"; 
+    src: url("//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember");
+    font-style: normal;
+    font-weight: 50;
+  }
+
+
 *{
   margin: 0 auto;
   padding: 0 auto;
 }
 
  body {
-    font-family: 'Plaza'; 
+    font-family: "Amazon Ember"; 
     background-color:#222222;
     max-height: 150rem;
     max-width: 100%;

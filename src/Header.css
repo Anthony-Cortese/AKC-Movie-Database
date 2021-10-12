@@ -1,6 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/ff979f94eb4780f0376c4696d67f66f7?family=Plaza);
  @font-face {
-  font-family: "Plaza"; 
+  font-family: "Inception"; 
   src: url("//db.onlinewebfonts.com/c/ff979f94eb4780f0376c4696d67f66f7?family=Plaza");
   font-style:normal;
   font-weight: 50;
@@ -14,7 +14,7 @@
     max-width: 100%;
     color: whitesmoke;
     background-color: #303030;
-    font-family: "Plaza"; 
+    font-family: "Inception"; 
 }
 
 .spinner { 
